@@ -1,0 +1,60 @@
+:root{
+    --graph: #e50914;
+    --textos: #141414;
+    --background: #FAFAFA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body{
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--textos);
+}
+
+/* Cabeçalho */
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--textos);
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #00c0c0;
+}
+
+/* Dados pessoais */
+
+main .info-pessoais-item{
+    display: inline-flex;
+}
+
+main .foto{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    border-color: var(--graph);
+    border-style: solid;    
+}
+main .info-pessoais{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 24px;
+    
+    
+}
